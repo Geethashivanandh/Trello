@@ -1,0 +1,111 @@
+{
+	"id": "ee71ba73-6aa7-4b0c-909a-8866fb7485b8",
+	"name": "Trello Board",
+	"timestamp": "2022-03-14T15:42:20.453Z",
+	"collection_id": "19955498-11522880-72e1-4174-8c52-5979de6db82b",
+	"folder_id": 0,
+	"environment_id": "19955498-5de9023a-b3a2-4199-936c-d4eb5cbc3915",
+	"totalPass": 3,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "329592bc-3cb2-453e-ae0e-5cd91571e102",
+			"name": "Get Board",
+			"url": "https://api.trello.com/1/boards/V9OgM67b?key=5e85d86b645b35b0078bf549aa0085c0&token=c32cae419ca41ddc0b43c73183ca23b4595cf9f106b7a2c6d24f2d50b9b20609",
+			"time": 1008,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1008
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "101c1f4a-13b8-4b7a-bda8-f121c719ffc4",
+			"name": "Create Board",
+			"url": "https://api.trello.com/1/boards/?name=GeethBoard&key=5e85d86b645b35b0078bf549aa0085c0&token=c32cae419ca41ddc0b43c73183ca23b4595cf9f106b7a2c6d24f2d50b9b20609",
+			"time": 417,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				417
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5c17a1e6-3c75-481a-8835-5fcc811a2bba",
+			"name": "Delete Board",
+			"url": "https://api.trello.com/1/boards/622f625eca741b2c650f6dc0?key=5e85d86b645b35b0078bf549aa0085c0&token=c32cae419ca41ddc0b43c73183ca23b4595cf9f106b7a2c6d24f2d50b9b20609",
+			"time": 579,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				579
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2004,
+	"collection": {
+		"requests": [
+			{
+				"id": "329592bc-3cb2-453e-ae0e-5cd91571e102",
+				"method": "GET"
+			},
+			{
+				"id": "101c1f4a-13b8-4b7a-bda8-f121c719ffc4",
+				"method": "POST"
+			},
+			{
+				"id": "5c17a1e6-3c75-481a-8835-5fcc811a2bba",
+				"method": "DELETE"
+			}
+		]
+	}
+}
